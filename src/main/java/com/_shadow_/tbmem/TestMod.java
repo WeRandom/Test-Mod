@@ -2,6 +2,7 @@ package com._shadow_.tbmem;
 
 
 import com._shadow_.tbmem.core.init.BlockInit;
+import com._shadow_.tbmem.core.init.FeatureInit;
 import com._shadow_.tbmem.core.init.ItemInit;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
@@ -32,6 +34,7 @@ public class TestMod
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
 
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, FeatureInit::addOres);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
