@@ -15,12 +15,15 @@ displayName="Test Mod (may change)" #mandatory
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks for this example mod goes to Java and Cy4's Tutorials and Technovision" #optional
+credits="Thanks for this example mod goes to Java and Cy4's Tutorials" #optional
 
 authors="_Shadow_" #optional
 
 description='''
 A little test mod for me to.... well test.
+Github repository ---> https://github.com/WeRandom/Test-Mod
+
+Rules for usage ---> as long as you don't call this mod your own you're good. ---> any addons to this mod or any ports (backports and other ports) and fixes to the mod you have to CREDIT AND LINK my mod.
 '''
 
 [[dependencies.examplemod]] #optional
