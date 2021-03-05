@@ -3,7 +3,7 @@ modLoader="javafml" #mandatory
 
 loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
-license="All rights reserved"
+license="MIT"
 
 [[mods]] #mandatory
 
@@ -15,7 +15,7 @@ displayName="Test Mod (may change)" #mandatory
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks for this example mod goes to Java and Cy4's Tutorials" #optional
+credits="Thanks for this mod goes to Cy4's Tutorials" #optional
 
 authors="_Shadow_" #optional
 

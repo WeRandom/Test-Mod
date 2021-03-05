@@ -1,6 +1,7 @@
 package com._shadow_.tbmem;
 
 
+import com._shadow_.tbmem.core.init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,6 +19,8 @@ public class TestMod
 
     public TestMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ItemInit.ITEMS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
