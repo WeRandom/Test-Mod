@@ -10,6 +10,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
-    public static final RegistryObject SILVER_INGOT = ITEMS.register("silver_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().group(TestMod.TAB)));
 }
