@@ -1,6 +1,7 @@
 package com._shadow_.tbmem.core.init;
 
 import com._shadow_.tbmem.TestMod;
+import com._shadow_.tbmem.common.block.QuarryBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 
@@ -23,5 +24,8 @@ public class BlockInit {
             () -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.GRAY)
                     .hardnessAndResistance(4.0F, 5F).harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .sound(SoundType.METAL)));
+
+
+    public static final RegistryObject<Block> QUARRY = BLOCKS.register("quarry", () -> new QuarryBlock());
 
 }

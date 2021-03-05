@@ -13,7 +13,7 @@ public class FeatureInit {
 
     public static void addOres(final BiomeLoadingEvent event){
         addOre(event, OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-                BlockInit.SILVER_ORE_BLOCK.get().getDefaultState(), 4, 0, 60, 20);
+                BlockInit.SILVER_ORE_BLOCK.get().getDefaultState(), 6, 0, 20, 3);
     }
 
     public static void addOre(final BiomeLoadingEvent event, RuleTest rule, BlockState state, int veinSize, int minHeight, int maxHeight, int amount){

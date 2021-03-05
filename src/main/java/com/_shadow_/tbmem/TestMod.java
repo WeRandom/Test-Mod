@@ -4,6 +4,7 @@ package com._shadow_.tbmem;
 import com._shadow_.tbmem.core.init.BlockInit;
 import com._shadow_.tbmem.core.init.FeatureInit;
 import com._shadow_.tbmem.core.init.ItemInit;
+import com._shadow_.tbmem.core.init.TileEntityTypesInit;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -32,6 +33,7 @@ public class TestMod
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);
+        TileEntityTypesInit.TILE_ENTITY_TYPE.register(bus);
         BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, FeatureInit::addOres);
