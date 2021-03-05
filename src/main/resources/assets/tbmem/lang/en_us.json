@@ -1,0 +1,13 @@
+{
+  "item.tbmem.silver_ingot": "Silver Ingot",
+  "block.tbmem.silver_ore_block": "Silver Ore",
+  "block.tbmem.silver_block": "Silver Block",
+  "item.tbmem.silver_sword": "Silver Sword",
+  "item.tbmem.silver_pickaxe": "Silver Pickaxe",
+  "item.tbmem.silver_axe": "Silver Axe",
+  "item.tbmem.silver_hoe": "Silver Hoe",
+  "item.tbmem.silver_shovel": "Silver Shovel",
+  "block.tbmem.silver_chest": "Silver Chest",
+  "itemGroup.TestTab": "Test-Mod Tab"
+
+}

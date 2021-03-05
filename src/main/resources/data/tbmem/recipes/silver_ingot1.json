@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tbmem:silver_block"
+    }
+  ],
+  "result":
+  {
+    "item": "tbmem:silver_ingot",
+    "count": 9
+  }
+}

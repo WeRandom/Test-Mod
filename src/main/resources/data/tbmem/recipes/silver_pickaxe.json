@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "zyz",
+    "zyz"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "tbmem:silver_ingot"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    },
+    "z": {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "tbmem:silver_pickaxe",
+    "count": 1
+  }
+}
