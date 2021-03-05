@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xzx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "tbmem:silver_ingot"
+    },
+    "z":
+    {
+      "item": "minecraft:diamond"
+    },
+    "y":
+    {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "item": "tbmem:silver_block",
+    "count": 1
+  }
+}
