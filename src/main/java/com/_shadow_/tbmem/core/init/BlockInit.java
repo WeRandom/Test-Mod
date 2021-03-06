@@ -1,6 +1,7 @@
 package com._shadow_.tbmem.core.init;
 
 import com._shadow_.tbmem.TestMod;
+import com._shadow_.tbmem.common.block.DisplayCaseBlock;
 import com._shadow_.tbmem.common.block.QuarryBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -27,5 +28,6 @@ public class BlockInit {
 
 
     public static final RegistryObject<Block> QUARRY = BLOCKS.register("quarry", () -> new QuarryBlock());
+    public static final RegistryObject<Block> DISPLAY_CASE = BLOCKS.register("display_case", () -> new DisplayCaseBlock());
 
 }
